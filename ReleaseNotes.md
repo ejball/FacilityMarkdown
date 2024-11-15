@@ -1,5 +1,10 @@
 # Release Notes
 
+## 2.11.0
+
+* Drop support for end-of-life frameworks.
+* Use roll forward with .NET tool.
+
 ## 2.10.0
 
 * Support events.
