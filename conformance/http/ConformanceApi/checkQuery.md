@@ -4,6 +4,7 @@
 GET /checkQuery
   ?string={string}
   &boolean={boolean}
+  &float={float}
   &double={double}
   &int32={int32}
   &int64={int64}
@@ -17,6 +18,7 @@ GET /checkQuery
 | --- | --- | --- |
 | string | string |  |
 | boolean | boolean |  |
+| float | float |  |
 | double | double |  |
 | int32 | int32 |  |
 | int64 | int64 |  |

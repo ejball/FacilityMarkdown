@@ -39,6 +39,7 @@ internal sealed class MarkdownGeneratorGlobals
 		{
 			ServiceTypeKind.String => "string",
 			ServiceTypeKind.Boolean => "boolean",
+			ServiceTypeKind.Float => "float",
 			ServiceTypeKind.Double => "double",
 			ServiceTypeKind.Int32 => "int32",
 			ServiceTypeKind.Int64 => "int64",
@@ -63,6 +64,7 @@ internal sealed class MarkdownGeneratorGlobals
 		{
 			ServiceTypeKind.String => "\"(string)\"",
 			ServiceTypeKind.Boolean => "(true|false)",
+			ServiceTypeKind.Float => "(number)",
 			ServiceTypeKind.Double => "(number)",
 			ServiceTypeKind.Decimal => "(number)",
 			ServiceTypeKind.Int32 => "(integer)",

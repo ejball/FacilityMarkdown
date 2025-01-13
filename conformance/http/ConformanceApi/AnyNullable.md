@@ -4,6 +4,7 @@
 {
   "string": "(string)" | null,
   "boolean": (true|false) | null,
+  "float": (number) | null,
   "double": (number) | null,
   "int32": (integer) | null,
   "int64": (integer) | null,
@@ -24,6 +25,7 @@
 | --- | --- | --- |
 | string | nullable<string> |  |
 | boolean | nullable<boolean> |  |
+| float | nullable<float> |  |
 | double | nullable<double> |  |
 | int32 | nullable<int32> |  |
 | int64 | nullable<int64> |  |
