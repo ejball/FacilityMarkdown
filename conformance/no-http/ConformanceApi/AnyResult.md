@@ -4,6 +4,7 @@
 | --- | --- | --- |
 | string | result<string> |  |
 | boolean | result<boolean> |  |
+| float | result<float> |  |
 | double | result<double> |  |
 | int32 | result<int32> |  |
 | int64 | result<int64> |  |

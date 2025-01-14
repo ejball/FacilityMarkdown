@@ -4,6 +4,7 @@
 {
   "string": { "value": "(string)" | "error": { "code": ... } },
   "boolean": { "value": (true|false) | "error": { "code": ... } },
+  "float": { "value": (number) | "error": { "code": ... } },
   "double": { "value": (number) | "error": { "code": ... } },
   "int32": { "value": (integer) | "error": { "code": ... } },
   "int64": { "value": (integer) | "error": { "code": ... } },
@@ -25,6 +26,7 @@
 | --- | --- | --- |
 | string | result<string> |  |
 | boolean | result<boolean> |  |
+| float | result<float> |  |
 | double | result<double> |  |
 | int32 | result<int32> |  |
 | int64 | result<int64> |  |

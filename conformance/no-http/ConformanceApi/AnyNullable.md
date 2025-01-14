@@ -4,6 +4,7 @@
 | --- | --- | --- |
 | string | nullable<string> |  |
 | boolean | nullable<boolean> |  |
+| float | nullable<float> |  |
 | double | nullable<double> |  |
 | int32 | nullable<int32> |  |
 | int64 | nullable<int64> |  |

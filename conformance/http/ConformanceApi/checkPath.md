@@ -1,7 +1,7 @@
 # checkPath
 
 ```
-GET /checkPath/{string}/{boolean}/{double}/{int32}/{int64}/{decimal}/{enum}/{datetime}
+GET /checkPath/{string}/{boolean}/{float}/{double}/{int32}/{int64}/{decimal}/{enum}/{datetime}
 --- 200 OK
 ```
 
@@ -9,6 +9,7 @@ GET /checkPath/{string}/{boolean}/{double}/{int32}/{int64}/{decimal}/{enum}/{dat
 | --- | --- | --- |
 | string | string |  |
 | boolean | boolean |  |
+| float | float |  |
 | double | double |  |
 | int32 | int32 |  |
 | int64 | int64 |  |

@@ -4,6 +4,7 @@
 | --- | --- | --- |
 | string | map<string> |  |
 | boolean | map<boolean> |  |
+| float | map<float> |  |
 | double | map<double> |  |
 | int32 | map<int32> |  |
 | int64 | map<int64> |  |

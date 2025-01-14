@@ -4,6 +4,7 @@
 {
   "string": { "...": "(string)", ... },
   "boolean": { "...": (true|false), ... },
+  "float": { "...": (number), ... },
   "double": { "...": (number), ... },
   "int32": { "...": (integer), ... },
   "int64": { "...": (integer), ... },
@@ -25,6 +26,7 @@
 | --- | --- | --- |
 | string | map<string> |  |
 | boolean | map<boolean> |  |
+| float | map<float> |  |
 | double | map<double> |  |
 | int32 | map<int32> |  |
 | int64 | map<int64> |  |
